@@ -10,5 +10,5 @@ The project was programmed on Python
 - Arduino UNO R3, Step Motor, USB Camera (make it cheap).
 - Building materials (unnecessary) 
 
-## Any update?
+## Any updates?
 I have decided to halt this project as it would just take too much resource to continue any further. Moreover, the same piece of technology has been slowly putting into use, so there is no point in trying to perfect it. 
