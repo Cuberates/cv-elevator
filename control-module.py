@@ -9,7 +9,7 @@ mp_hands = mp.solutions.hands
 mp_draw  = mp.solutions.drawing_utils
 hands    = mp_hands.Hands(False, 1, 1, 0.5, 0.5)
 
-#ser = serial.Serial('COM3', 2000000) # Change the PORT NUMBER and BAUD RATE if something goes wrong, but we doubt it will resolve your issues :D
+ser = serial.Serial('COM3', 2000000) # Change the PORT NUMBER and BAUD RATE if something goes wrong, but we doubt it will resolve your issues :D
 
 def detectFloor(currentCoordinate, width, numFloor): # Works by dividing the screen into different sections and traversing through them, could've been faster but we are a lazy team.
     part = int(width/numFloor)
@@ -80,7 +80,7 @@ def main(webcam, width, height, _id, floorCount): # The magic begins here
                                 print('Next Floor   :', nextFloor)
                                 print('Rotation     :', nextFloor-currentFloor, '(cycles)')                           
                                 print('')
-                                #rotateMotor(currentFloor, nextFloor)
+                                rotateMotor(currentFloor, nextFloor)
                                 currentFloor = nextFloor
                                 break
         cv.waitKey(1)
