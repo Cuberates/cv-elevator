@@ -1,11 +1,14 @@
 # CV-Elevator
 Elevator powered by Computer Vision (CV) Technology (Prototype)
 
-## What is this?
-In order to fully comprehend the shear confusion of this repo, I want to talk about the TechGenius Competition 2021 organized by the RMIT University. In the competition, a team consisted of 3 members were given around 2-3 months to come up with a technological solution for the COVID19 pandemic, and our team decided to develop an elevator system that could be controlled without direct contact with the buttons to minimize viral transmission as much as possible. With that being said, this repo contains all of our project files, which are not that many. Moreover, I just learned how to program in Python just then, so joining the competition was also a good way to enhance my skillz.
+## About 
+CV-Elevator is a model of a potentially useful application of OpenCV into developing smart elevator systems to ensure safety during the COVID19 pandemic. It works by scanning the user's hand via computer vision technology, and operating based on their selection. This minimises the need to touch the button themselves in selecting a floor, which was crucial in subsiding SARS-COV-2 infections. We have done a presentation on this in the RMIT TechGenius 2021 and the Ho Chi Minh City Science and Engineering Fair 2021. 
 
-## Required frameworks / libraries:
-To test our project, it is helpful to install some essential Python libraries, such as: MediaPipe, OpenCV, PySerial. (Using `pip3 install`) and configure your Arduino UNO3 (Port, Baud Rate, ...).
+## Usage
+The model was implemented in Python 3 using the help of MediaPipe and Pyserial, and it was ran on an Arduino UNO R3. 
+Download the Arduino IDE from the main website and install the required frameworks for `control-module.py` via the following command: `pip3 install opencv-python mediapipe pyserial keyboard time os`
+Connect your Arduino UNO R3 and configure the PORT and the BAUD RATE on the Arduino IDE. 
+To run the project, do the following command: `python3 control-module.py`
 
-## Any updates?
-I have decided to halt this project as it would just take too much resource to continue any further. Moreover, the same piece of technology has been slowly putting into use, so there is no point in trying to perfect it. 
+Feel free to fork the project. 
+MIT License applies. 
