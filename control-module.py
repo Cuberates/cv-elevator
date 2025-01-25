@@ -86,8 +86,3 @@ def main(webcam, width, height, _id, floorCount): # The magic begins here
         cv.waitKey(1)
 
 main(0, 1280, 720, 8, 4)
-
-
-"""
-As of 12/28/2021: Due to the poor implementation of algorithms, the calculations based on our mathematical model had to be adjusted. Moreover, this is not a ready-to-be-implemented piece of software, but more like a simple Python script. Being able to "use" this program requires both debugging skills, and an ability to grasp fundamental concepts of coding, opencv, python, and computer science in general. An update for this project will be made as soon as possible - Jack Nguyen
-"""
