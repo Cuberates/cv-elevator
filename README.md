@@ -6,13 +6,6 @@ CV-Elevator is a model of a potentially useful application of OpenCV into develo
 
 ## Usage
 The model was implemented in Python 3 using the help of MediaPipe and Pyserial, and it was ran on an Arduino UNO R3.
-
-Download the Arduino IDE from the main website and install the required frameworks for `control-module.py` via the following command: `pip3 install opencv-python mediapipe pyserial keyboard time os`
-
-Connect your Arduino UNO R3 and configure the PORT and the BAUD RATE on the Arduino IDE. 
-
-To run the project, do the following command: `python3 control-module.py`
-
 Feel free to fork the project. 
 
 MIT License applies. 
